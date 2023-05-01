@@ -1,5 +1,9 @@
 # Utiliser Hadoop et MapReduce avec Docker
 
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 Ce guide vous explique comment utiliser Hadoop et MapReduce en utilisant Docker. Les étapes sont les suivantes :
 
 1. Installer Docker
@@ -37,7 +41,7 @@ suivante :
 
 Maintenant que Hadoop est installé, vous pouvez y accéder en tapant la commande suivante dans votre terminal :
 
-`$ docker exec -it namenode /bin/bash`
+`docker exec -it namenode /bin/bash`
 
 Nous allons appeler ce terminal avec Hadoop qui tourne `*terminal 1`. Laissez-le de côté sans le fermer pour le moment.
 
@@ -327,6 +331,7 @@ Félicitations ! Nous avons terminé ! Vous pouvez maintenant fermer les termina
 résultat à votre guise.
 
 ## Simplifier l'exécution de MapReduce Hadoop avec un script bash
+
 Cependant, vous avez peut-être remarqué qu'il y a plusieurs étapes redondantes lorsque vous exécutez plusieurs fois le
 code. Il serait donc judicieux de créer un script bash pour automatiser certaines étapes !
 
